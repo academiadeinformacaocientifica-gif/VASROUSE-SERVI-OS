@@ -25,7 +25,7 @@ export const QuickContactBanner: React.FC<QuickContactBannerProps> = ({ onOpenDe
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Kicker (matching reference image) */}
         <div className="text-xs uppercase font-mono tracking-widest text-[#55476a] font-semibold mb-2">
-          Contato
+          Contacto
         </div>
 
         {/* Headline with accent word (matching reference image) */}
@@ -39,7 +39,7 @@ export const QuickContactBanner: React.FC<QuickContactBannerProps> = ({ onOpenDe
 
         {/* Subtitle */}
         <p className="mt-4 text-base text-[#55476a] max-w-xl mx-auto leading-relaxed">
-          Partilhe o seu contacto corporativo para receber um diagnóstico preliminar e estimativa de investimento para o seu projeto em Luanda.
+          Partilhe o seu contacto corporativo para receber um diagnóstico preliminar e estimativa de investimento para o seu projecto em Luanda.
         </p>
 
         {/* Wide Pill Search/Input Form (matching reference image) */}
@@ -47,7 +47,7 @@ export const QuickContactBanner: React.FC<QuickContactBannerProps> = ({ onOpenDe
           {isSuccess ? (
             <div className="p-4 rounded-full bg-[#c3f500]/20 border border-[#47149e]/20 text-[#22074f] flex items-center justify-center gap-2 font-medium text-sm animate-in fade-in duration-200">
               <CheckCircle2 className="w-5 h-5 text-[#47149e]" />
-              <span>Excelente! A redirecionar para os detalhes da proposta...</span>
+              <span>Excelente! A redireccionar para os detalhes da proposta...</span>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="relative flex items-center shadow-lg shadow-black/5 rounded-full overflow-hidden border border-[#22074f]/15 bg-white p-1.5 focus-within:border-[#47149e] transition-colors">

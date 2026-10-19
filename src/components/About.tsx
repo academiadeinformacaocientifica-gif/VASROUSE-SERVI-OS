@@ -15,7 +15,7 @@ export const About: React.FC = () => {
             Cobertura integral de comunicação: da estratégia digital ao produto final impresso.
           </h2>
           <p className="mt-4 text-base sm:text-lg text-white/70 leading-relaxed">
-            A Vasrouse Serviços nasceu para sanar uma das maiores dores do mercado angolano: a desconexão entre a conceção criativa e a execução física. Atuamos como o seu parceiro único de comunicação visual de ponta a ponta, garantindo fidelidade absoluta, padrão internacional e pontualidade.
+            A Vasrouse Serviços nasceu para sanar uma das maiores dores do mercado angolano: a desconexão entre a concepção criativa e a execução física. Actuamos como o seu parceiro único de comunicação visual de ponta a ponta, garantindo fidelidade absoluta, padrão internacional e pontualidade.
           </p>
         </div>
 

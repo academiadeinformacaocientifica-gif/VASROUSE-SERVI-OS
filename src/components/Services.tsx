@@ -138,7 +138,7 @@ export const Services: React.FC<ServicesProps> = ({ onSelectServiceForQuote }) =
                 {/* Footer action of card */}
                 <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-3">
                   <div className="text-[11px] font-mono text-white/40">
-                    {service.category === 'digital' ? 'Ambiente Web / Social' : service.category === 'editorial' ? 'Editoração & Papel' : 'Gráfica Offset / Digital'}
+                    {service.category === 'digital' ? 'Ambiente Web / Social' : service.category === 'editorial' ? 'Produção Editorial & Papel' : 'Gráfica Offset / Digital'}
                   </div>
                   <button
                     onClick={() => onSelectServiceForQuote(service.id)}

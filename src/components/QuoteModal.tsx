@@ -85,7 +85,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
               Pedido de Orçamento Encaminhado!
             </h3>
             <p className="text-sm text-white/75 max-w-md mx-auto leading-relaxed">
-              O seu briefing foi registado na direção comercial da Vasrouse Serviços. A nossa equipa em Luanda responderá dentro de 24 horas úteis.
+              O seu briefing foi registado na direcção comercial da Vasrouse Serviços. A nossa equipa em Luanda responderá dentro de 24 horas úteis.
             </p>
 
             <div className="pt-4 flex flex-wrap justify-center gap-3">
@@ -200,7 +200,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
 
               <div>
                 <label className="block text-xs font-medium text-white/80 mb-1.5">
-                  Detalhes do Projeto / Requisitos
+                  Detalhes do Projecto / Requisitos
                 </label>
                 <textarea
                   rows={3}

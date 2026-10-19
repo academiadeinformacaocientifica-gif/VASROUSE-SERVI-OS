@@ -8,7 +8,7 @@ export const TrustMarquee: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 mb-3 flex items-center justify-between text-xs text-white/50">
         <span className="font-mono uppercase tracking-widest text-[#c3f500] flex items-center gap-2">
           <Shield className="w-3.5 h-3.5" />
-          <span>Setores Atendidos com Padrão de Estado & Corporativo</span>
+          <span>Sectores Atendidos com Padrão de Estado & Corporativo</span>
         </span>
         <span className="hidden sm:inline-block font-mono text-[11px] text-white/40">
           Angola · Presença Nacional

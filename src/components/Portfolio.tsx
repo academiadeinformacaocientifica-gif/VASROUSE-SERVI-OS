@@ -17,7 +17,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenQuoteWithProject }) 
     : PORTFOLIO_PROJECTS.filter((p) => p.category === activeCategory);
 
   const filterTabs: { id: ServiceCategory; label: string }[] = [
-    { id: 'todos', label: 'Todos os Projetos' },
+    { id: 'todos', label: 'Todos os Projectos' },
     { id: 'digital', label: 'Digital & Redes' },
     { id: 'impresso', label: 'Design & Impressão' },
     { id: 'editorial', label: 'Editorial & Revistas' },
@@ -30,7 +30,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenQuoteWithProject }) 
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div className="max-w-2xl">
             <div className="text-xs uppercase font-mono tracking-widest text-[#c3f500] mb-3">
-              Montra de Projetos · Portfólio Dinâmico
+              Montra de Projectos · Portfólio Dinâmico
             </div>
             <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
               Excelência visível em cada detalhe impresso ou pixel publicado.

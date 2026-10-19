@@ -23,7 +23,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
     { label: 'Soluções', href: '#solucoes' },
     { label: 'Sobre Nós', href: '#sobre' },
     { label: 'Portfólio', href: '#portfolio' },
-    { label: 'Contato', href: '#contacto-rapido' },
+    { label: 'Contacto', href: '#contacto-rapido' },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

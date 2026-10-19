@@ -30,13 +30,13 @@ export const Solutions: React.FC<SolutionsProps> = ({ onOpenQuoteWithBrief }) =>
         {/* Header */}
         <div className="max-w-3xl mb-12">
           <div className="text-xs uppercase font-mono tracking-widest text-[#c3f500] mb-3">
-            Comunicação Segmentada · Soluções por Setor
+            Comunicação Segmentada · Soluções por Sector
           </div>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
             Adequamos o tom, a metodologia e o rigor a cada perfil institucional.
           </h2>
           <p className="mt-4 text-base text-white/70">
-            Diferentes organizações possuem diferentes exigências de confidencialidade, velocidade comercial e acabamento estético. Veja como estruturamos a nossa abordagem para o seu setor.
+            Diferentes organizações possuem diferentes exigências de confidencialidade, velocidade comercial e acabamento estético. Veja como estruturamos a nossa abordagem para o seu sector.
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export const Solutions: React.FC<SolutionsProps> = ({ onOpenQuoteWithBrief }) =>
 
               <div className="pt-4">
                 <button
-                  onClick={() => onOpenQuoteWithBrief(`Interesse no setor: ${activeAudience.title}`)}
+                  onClick={() => onOpenQuoteWithBrief(`Interesse no sector: ${activeAudience.title}`)}
                   className="px-5 py-3 text-xs font-semibold uppercase tracking-wider text-[#22074f] bg-[#c3f500] hover:bg-[#b2e000] active:scale-[0.98] transition-all rounded-lg inline-flex items-center gap-2 cursor-pointer shadow-md shadow-[#c3f500]/15"
                 >
                   <span>Solicitar Proposta para {activeAudience.title}</span>

@@ -21,7 +21,7 @@ export const FaqSection: React.FC = () => {
             Transparência e rigor em cada etapa da contratação.
           </h2>
           <p className="mt-3 text-sm sm:text-base text-white/70">
-            Respostas diretas sobre prazos, sigilo institucional, provas de cor e expedição para todas as províncias de Angola.
+            Respostas directas sobre prazos, sigilo institucional, provas de cor e expedição para todas as províncias de Angola.
           </p>
         </div>
 

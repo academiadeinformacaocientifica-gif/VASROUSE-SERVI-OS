@@ -76,10 +76,10 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Col 2: Contato (span 3) */}
+          {/* Col 2: Contacto (span 3) */}
           <div className="lg:col-span-3 space-y-3">
             <div className="text-xs font-mono uppercase tracking-wider text-[#c3f500] font-bold">
-              Contato
+              Contacto
             </div>
             <div className="space-y-3 text-xs text-white/80">
               <div className="flex items-start gap-2.5">
@@ -112,9 +112,9 @@ export const Footer: React.FC = () => {
               Sobre a Vasrouse
             </div>
             <ul className="space-y-2 text-xs text-white/70">
-              <li><a href="#sobre" className="hover:text-white transition-colors">Nossa história</a></li>
+              <li><a href="#sobre" className="hover:text-white transition-colors">A nossa história</a></li>
               <li><a href="#solucoes" className="hover:text-white transition-colors">Pilares técnicos</a></li>
-              <li><a href="#portfolio" className="hover:text-white transition-colors">Portfólio & Cases</a></li>
+              <li><a href="#portfolio" className="hover:text-white transition-colors">Portfólio & Casos de Estudo</a></li>
               <li><a href="#contacto-rapido" className="hover:text-white transition-colors">Carreiras</a></li>
             </ul>
           </div>

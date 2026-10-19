@@ -37,7 +37,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onApplyCalcula
   const finishes = [
     { id: 'padrao', label: 'Padrão Profissional', desc: 'Couché mate / brilho com verniz máquina' },
     { id: 'premium', label: 'Acabamento Nobre VIP', desc: 'Verniz UV localizado, relevo seco ou hot stamping' },
-    { id: 'luxo', label: 'Edição de Luxo Institucional', desc: 'Capa dura, costura artesanal e caixa protetora' },
+    { id: 'luxo', label: 'Edição de Luxo Institucional', desc: 'Capa dura, costura artesanal e caixa protectora' },
   ];
 
   const getCalculatedEstimate = () => {
@@ -45,7 +45,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onApplyCalcula
     if (selectedService === 'revistas-editorial') {
       days = urgency === 'urgente' ? '5 a 8 dias (Expresso)' : scale === 'grande' ? '15 a 20 dias' : '10 a 14 dias';
     } else if (selectedService === 'redes-sociais') {
-      days = 'Ativação em 48h a 72h';
+      days = 'Activação em 48h a 72h';
     } else if (selectedService === 'design-impressao') {
       days = urgency === 'urgente' ? '48h a 72h' : '5 a 7 dias úteis';
     } else {
@@ -94,13 +94,13 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onApplyCalcula
         <div className="max-w-3xl mb-14">
           <div className="text-xs uppercase font-mono tracking-widest text-[#c3f500] mb-3 flex items-center gap-2">
             <Calculator className="w-3.5 h-3.5" />
-            <span>Ferramenta Interativa · Configuração de Escopo</span>
+            <span>Ferramenta Interactiva · Configuração de Escopo</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
-            Configure o escopo do seu projeto e obtenha alinhamento imediato.
+            Configure o escopo do seu projecto e obtenha alinhamento imediato.
           </h2>
           <p className="mt-3 text-base text-white/70">
-            Simule parâmetros de serviço, volume, tipo de acabamento e urgência para direcionar o briefing exato para a nossa direção técnica em Luanda.
+            Simule parâmetros de serviço, volume, tipo de acabamento e urgência para direccionar o briefing exacto para a nossa direcção técnica em Luanda.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onApplyCalcula
             {/* Step 1: Service */}
             <div>
               <label className="block text-xs font-mono uppercase tracking-wider text-white/60 mb-3">
-                01. Selecione a Linha de Serviço Principal
+                01. Seleccione a Linha de Serviço Principal
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                 {services.map((item) => (
@@ -219,7 +219,7 @@ export const QuoteCalculator: React.FC<QuoteCalculatorProps> = ({ onApplyCalcula
 
             <div className="py-6 space-y-4">
               <div>
-                <div className="text-[11px] text-white/50 uppercase font-mono">Serviço Selecionado</div>
+                <div className="text-[11px] text-white/50 uppercase font-mono">Serviço Seleccionado</div>
                 <div className="text-lg font-display font-bold text-white mt-0.5">
                   {estimate.serviceName}
                 </div>

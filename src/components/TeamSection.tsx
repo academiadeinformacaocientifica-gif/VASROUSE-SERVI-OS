@@ -3,7 +3,7 @@ import React from 'react';
 export const TeamSection: React.FC = () => {
   const team = [
     {
-      role: 'DIREÇÃO EDITORIAL',
+      role: 'DIRECÇÃO EDITORIAL',
       name: 'Mário dos Santos',
       image: '/images/vasrouse_team_editorial_1792428882170.jpg',
       bio: 'Especialista em paginação editorial de alta complexidade, diagramação de revistas ministeriais, livros comemorativos e relatórios anuais com padrões de excelência internacional.'

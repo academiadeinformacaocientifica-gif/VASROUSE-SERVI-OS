@@ -8,7 +8,7 @@ export const FeaturesGrid: React.FC = () => {
     },
     {
       title: 'Cumprimento Estrito de Prazos',
-      desc: 'Tratamos cada data de entrega como um compromisso inegociável. Eventos de Estado, reuniões de acionistas e atas têm garantia de pontualidade.'
+      desc: 'Tratamos cada data de entrega como um compromisso inegociável. Eventos de Estado, reuniões de accionistas e actas têm garantia de pontualidade absoluta.'
     },
     {
       title: 'Foco em Resultados Institucionais',
@@ -16,7 +16,7 @@ export const FeaturesGrid: React.FC = () => {
     },
     {
       title: 'Provas de Cor Físicas Certificadas',
-      desc: 'Antes de rodar qualquer tiragem, apresentamos boneco real e prova de máquina para aprovação formal sem desvios de cor.'
+      desc: 'Antes de rodar qualquer tiragem, apresentamos maqueta real e prova de máquina para aprovação formal sem desvios cromáticos.'
     },
     {
       title: 'Logística Nacional (Luanda & Províncias)',
@@ -38,7 +38,7 @@ export const FeaturesGrid: React.FC = () => {
               Compromisso Vasrouse · Angola
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-[2.6rem] font-display font-extrabold text-[#22074f] tracking-tight leading-[1.15]">
-              Excelência visual e rigor técnico do conceito à entrega física.
+              Excelência visual e rigor técnico da concepção à entrega física.
             </h2>
             <p className="mt-5 text-base text-[#55476a] leading-relaxed">
               Combinamos estratégia de comunicação, design sofisticado e acompanhamento minucioso de máquinas gráficas para garantir que o resultado final supere todas as expectativas da sua liderança.

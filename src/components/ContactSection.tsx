@@ -68,11 +68,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
     }
 
     if (!formData.serviceId) {
-      newErrors.serviceId = 'Selecione a área ou serviço de interesse prioritário.';
+      newErrors.serviceId = 'Seleccione a área ou serviço de interesse prioritário.';
     }
 
     if (!formData.projectDescription.trim() || formData.projectDescription.trim().length < 10) {
-      newErrors.projectDescription = 'Descreva sucintamente o seu projeto (mínimo 10 carateres).';
+      newErrors.projectDescription = 'Descreva sucintamente o seu projecto (mínimo 10 caracteres).';
     }
 
     setErrors(newErrors);
@@ -116,7 +116,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
             Canal Corporativo · Pedido de Orçamento
           </div>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight">
-            Inicie o seu projeto com a Vasrouse Serviços.
+            Inicie o seu projecto com a Vasrouse Serviços.
           </h2>
           <p className="mt-4 text-base sm:text-lg text-white/70">
             Estamos prontos para analisar o briefing da sua instituição ou empresa em Luanda e em qualquer província de Angola.
@@ -222,7 +222,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                   Pedido de Orçamento Recebido com Sucesso
                 </h3>
                 <p className="text-sm text-white/75 max-w-md mx-auto leading-relaxed">
-                  O seu briefing foi encaminhado para a direção comercial da Vasrouse Serviços (<span className="text-[#c3f500]">geral@vasrouse.ao</span>). A nossa equipa entrará em contacto dentro de 24 horas úteis.
+                  O seu briefing foi encaminhado para a direcção comercial da Vasrouse Serviços (<span className="text-[#c3f500]">geral@vasrouse.ao</span>). A nossa equipa entrará em contacto dentro de 24 horas úteis.
                 </p>
 
                 <div className="pt-4 flex flex-wrap justify-center gap-4">
@@ -363,16 +363,16 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                   </div>
                 </div>
 
-                {/* Descrição do Projeto */}
+                {/* Descrição do Projecto */}
                 <div>
                   <label className="block text-xs font-medium text-white/80 mb-2">
-                    Descrição do Projeto / Especificações <span className="text-[#c3f500]">*</span>
+                    Descrição do Projecto / Especificações <span className="text-[#c3f500]">*</span>
                   </label>
                   <textarea
                     rows={4}
                     value={formData.projectDescription}
                     onChange={(e) => setFormData({ ...formData, projectDescription: e.target.value })}
-                    placeholder="Indique detalhes como número aproximado de páginas, tiragem estimada, tipo de acabamento ou canais a ativar..."
+                    placeholder="Indique detalhes como número aproximado de páginas, tiragem estimada, tipo de acabamento ou canais a activar..."
                     className={`w-full px-4 py-3 rounded-xl bg-white/[0.04] border ${
                       errors.projectDescription ? 'border-red-400' : 'border-white/15'
                     } text-white placeholder-white/30 text-sm focus:outline-none focus:border-[#c3f500] transition-colors resize-none`}

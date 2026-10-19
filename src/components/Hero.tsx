@@ -47,7 +47,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
               onClick={onExploreServices}
               className="px-8 py-3.5 rounded-full text-sm font-semibold text-[#22074f] bg-[#c3f500] hover:bg-[#b2e000] active:scale-95 transition-all shadow-lg shadow-[#c3f500]/25 cursor-pointer inline-flex items-center gap-2"
             >
-              <span>Conheça nossos serviços</span>
+              <span>Conheça os nossos serviços</span>
             </button>
           </div>
         </div>

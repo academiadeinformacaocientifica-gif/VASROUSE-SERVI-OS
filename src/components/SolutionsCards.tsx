@@ -16,10 +16,10 @@ export const SolutionsCards: React.FC<SolutionsCardsProps> = ({ onSelectSolution
       subtitle: 'Comunicação',
       description: 'Gestão estratégica de redes sociais, calendários editoriais de autoridade e campanhas de marketing digital orientadas a conversão.',
       deliverables: [
-        'Calendário editorial e copy institucional',
+        'Calendário editorial e redacção institucional',
         'Artes gráficas em alta definição para ecrãs',
         'Gestão de comunidade e campanhas Meta/Google',
-        'Relatórios mensais de alcance e engajamento'
+        'Relatórios mensais de alcance e envolvimento'
       ],
       bottomPill: 'Comunicação'
     },
@@ -34,7 +34,7 @@ export const SolutionsCards: React.FC<SolutionsCardsProps> = ({ onSelectSolution
       deliverables: [
         'Grelhas tipográficas com padrão suíço',
         'Tratamento fotográfico de alta resolução',
-        'Provas de cor certificadas e bonecos reais',
+        'Provas de cor certificadas e maquetas reais',
         'Encadernação com lombada quadrada ou cosida'
       ],
       bottomPill: 'Editorial'
@@ -46,12 +46,12 @@ export const SolutionsCards: React.FC<SolutionsCardsProps> = ({ onSelectSolution
       accentColor: '#ffffff',
       title: 'Produção & Impressão',
       subtitle: 'Gráfica',
-      description: 'Execução física de alta fidelidade em papéis nobres certificados, com acabamentos especiais e inspeção rigorosa em máquina.',
+      description: 'Execução física de alta fidelidade em papéis nobres certificados, com acabamentos nobres e inspecção rigorosa em máquina.',
       deliverables: [
         'Impressão offset e digital de grande precisão',
-        'Verniz UV localizado, relevo seco e hot stamping',
+        'Verniz UV localizado, relevo seco e estampagem a ouro',
         'Pastas corporativas, envelopes e cartões VIP',
-        'Roll-ups, lonas e displays para eventos'
+        'Roll-ups, telas e expositores para eventos'
       ],
       bottomPill: 'Impressão'
     }
@@ -63,7 +63,7 @@ export const SolutionsCards: React.FC<SolutionsCardsProps> = ({ onSelectSolution
         {/* Centered Title (matching reference image) */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-[#22074f] tracking-tight">
-            Nossas soluções
+            As nossas soluções
           </h2>
           <p className="mt-4 text-base text-[#55476a]">
             Três pilares estratégicos desenhados para atender desde instituições públicas a PMEs e produtoras de eventos em Angola.

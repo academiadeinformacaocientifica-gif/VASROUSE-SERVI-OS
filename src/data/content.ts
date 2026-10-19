@@ -32,11 +32,11 @@ export const SERVICES_LIST: ServiceItem[] = [
     description: 'Construção e gestão profissional da presença digital da sua organização, garantindo constância, alinhamento institucional e retenção da comunidade.',
     deliverables: [
       'Planeamento e calendário editorial mensal',
-      'Criação de conteúdos estratégicos com copy institucional',
-      'Gestão ativa de comentários e mensagens diretas',
-      'Relatórios mensais de alcance, engajamento e conversão'
+      'Criação de conteúdos estratégicos com redacção institucional',
+      'Gestão activa de comentários e mensagens directas',
+      'Relatórios mensais de alcance, envolvimento e conversão'
     ],
-    keyBenefit: 'Presença diária com consistência de alto padrão visual e comunicação alinhada com as metas do negócio.'
+    keyBenefit: 'Presença diária com consistência de alto padrão visual e comunicação alinhada com os objectivos do negócio.'
   },
   {
     id: 'marketing-digital',
@@ -47,11 +47,11 @@ export const SERVICES_LIST: ServiceItem[] = [
     description: 'Campanhas orientadas a resultados mensuráveis para fortalecer o reconhecimento da sua marca e gerar oportunidades de negócio qualificadas.',
     deliverables: [
       'Campanhas de tráfego pago (Meta Ads, Google Ads, LinkedIn)',
-      'Estratégias de geração de leads comerciais e institucionais',
-      'Copywriting persuasivo e redação institucional para anúncios',
-      'Otimização contínua de custos por contacto e conversão'
+      'Estratégias de geração de contactos comerciais e institucionais',
+      'Redacção persuasiva e institucional para anúncios',
+      'Optimização contínua de custos por contacto e conversão'
     ],
-    keyBenefit: 'Investimento direcionado ao público certo com controlo rigoroso de métricas e ROI.'
+    keyBenefit: 'Investimento direccionado ao público certo com controlo rigoroso de métricas e retorno do investimento.'
   },
   {
     id: 'design-digital',
@@ -61,9 +61,9 @@ export const SERVICES_LIST: ServiceItem[] = [
     category: 'digital',
     description: 'Identidades visuais digitais marcantes que comunicam autoridade e modernidade em cada ecrã, alimentando canais digitais com primor gráfico.',
     deliverables: [
-      'Templates visuais exclusivos para redes sociais',
-      'Banners para websites, portais e campanhas digitais',
-      'Apresentações corporativas institucionais (Pitch Decks / Keynotes)',
+      'Modelos visuais exclusivos para redes sociais',
+      'Faixas para portais, sítios de internet e campanhas digitais',
+      'Apresentações corporativas institucionais de alto impacto',
       'Infográficos estáticos e dinâmicos para relatórios'
     ],
     keyBenefit: 'Uniformidade gráfica em todos os canais digitais com estética sofisticada e legibilidade máxima.'
@@ -72,16 +72,16 @@ export const SERVICES_LIST: ServiceItem[] = [
     id: 'design-impressao',
     number: '04',
     title: 'Design para Impressão',
-    subtitle: 'Flyers, Cartazes, Catálogos e Embalagens',
+    subtitle: 'Folhetos, Cartazes, Catálogos e Embalagens',
     category: 'impresso',
-    description: 'Criação gráfica concebida especificamente para suportes físicos, respeitando normas rigorosas de pré-impressão, sangrias e perfis de cor CMYK.',
+    description: 'Criação gráfica concebida especificamente para suportes físicos, respeitando normas rigorosas de pré-impressão, sangrias e perfis cromáticos CMYK.',
     deliverables: [
-      'Flyers, folhetos desdobráveis e cartazes de evento',
+      'Folhetos, desdobráveis e cartazes de eventos',
       'Catálogos de produtos e brochuras corporativas de prestígio',
-      'Branding de papelaria institucional (envelopes, pastas, cartões)',
-      'Packaging, rótulos e embalagens personalizadas'
+      'Papelaria institucional (envelopes, pastas de cúpula, cartões de visita)',
+      'Embalagens e rótulos personalizados de alta exigência'
     ],
-    keyBenefit: 'Ficheiros finais fechados e calibrados com rigor técnico para evitar desvios cromáticos na máquina.'
+    keyBenefit: 'Ficheiros finais fechados e calibrados com rigor técnico para evitar desvios cromáticos em máquina.'
   },
   {
     id: 'producao-impressao',
@@ -92,11 +92,11 @@ export const SERVICES_LIST: ServiceItem[] = [
     description: 'Controlo total da cadeia produtiva física com recurso a tecnologias de impressão de alta fidelidade e acabamentos nobres que valorizam a marca.',
     deliverables: [
       'Impressão offset e digital de grande e pequeno formato',
-      'Acabamentos premium (verniz localizado UV, relevo seco, hot stamping)',
-      'Materiais de grande formato (lonas, roll-ups, sinalética, stands)',
-      'Controlo de qualidade folha a folha e embalamento seguro'
+      'Acabamentos nobres (verniz localizado UV, relevo seco, estampagem a ouro)',
+      'Materiais de grande formato (telas, expositores roll-up, sinalética)',
+      'Controlo de qualidade folha a folha e acondicionamento protegido'
     ],
-    keyBenefit: 'Entrega de material pronto e inspecionado em Luanda e expedição garantida para todas as províncias.'
+    keyBenefit: 'Entrega de material pronto e inspeccionado em Luanda e expedição garantida para todas as províncias.'
   },
   {
     id: 'revistas-editorial',
@@ -104,12 +104,12 @@ export const SERVICES_LIST: ServiceItem[] = [
     title: 'Revistas e Editorial',
     subtitle: 'Paginação, Diagramação e Produção de Revistas',
     category: 'editorial',
-    description: 'Especialização de referência no mercado angolano em projetos editoriais complexos: revistas periódicas, relatórios de contas, anuários e livros.',
+    description: 'Especialização de referência no mercado angolano em projectos editoriais complexos: revistas periódicas, relatórios de contas, anuários e livros comemorativos.',
     deliverables: [
       'Grelhas tipográficas personalizadas e paginação de elite',
       'Diagramação e tratamento fotográfico de alta resolução',
-      'Gestão de provas de cor certificadas e aprovação de bonecos',
-      'Encadernação artesanal, cosida a linha ou com lombada quadrada'
+      'Gestão de provas de cor certificadas e aprovação de maquetas físicas',
+      'Encadernação cosida a linha ou com lombada quadrada nobre'
     ],
     keyBenefit: 'Padrão editorial internacional que confere peso documental e notoriedade à sua instituição.'
   }
@@ -120,10 +120,10 @@ export const TARGET_AUDIENCES: TargetAudience[] = [
     id: 'instituicoes-publicas',
     title: 'Instituições Públicas e Diplomacia',
     subtitle: 'Ministérios, Governos Provinciais, Embaixadas e Organismos Internacionais',
-    badge: 'Setor Governamental & Diplomático',
-    focus: 'Rigor técnico, discrição institucional, cumprimento estrito de prazos e imagem de Estado impecável.',
-    tone: 'Formal, institucional, focado em segurança de informação e solenidade.',
-    description: 'Projetos públicos e missões diplomáticas exigem padrões invioláveis de exatidão editorial, confidencialidade de dados e respeito integral aos calendários de prestação de contas.',
+    badge: 'Sector Governamental & Diplomático',
+    focus: 'Rigor técnico, discrição institucional, cumprimento estrito de prazos e imagem de Estado cuidada.',
+    tone: 'Formal, institucional, orientado a resultados e solenidade protocolar.',
+    description: 'Projectos públicos e missões diplomáticas exigem padrões invioláveis de exactidão editorial, confidencialidade de dados e respeito integral aos calendários de prestação de contas.',
     highlights: [
       'Cumprimento rigoroso das normas visuais e heráldicas da República de Angola',
       'Sigilo absoluto na preparação de relatórios de contas e documentação estratégica',
@@ -133,17 +133,17 @@ export const TARGET_AUDIENCES: TargetAudience[] = [
       'Relatórios e Contas Anuais com encadernação nobre',
       'Revistas institucionais de balanço de governação',
       'Manuais de protocolo, pastas de cúpula e credenciamento de alta segurança',
-      'Sinalética cerimonial e displays para delegações diplomáticas'
+      'Sinalética cerimonial e expositores para delegações diplomáticas'
     ]
   },
   {
     id: 'empresas-pmes',
     title: 'Empresas e PMEs',
-    subtitle: 'Sociedades Comerciais, Indústrias, Serviços e Startups',
-    badge: 'Setor Corporativo & Comercial',
-    focus: 'Atração de novos clientes, canais digitais ativos e benefícios comerciais mensuráveis.',
-    tone: 'Direto, ágil, focado em retorno sobre o investimento e dinamismo de mercado.',
-    description: 'As pequenas e médias empresas encontram na Vasrouse Serviços um parceiro ágil para estruturar a sua marca com solidez, competir no mercado com imagem profissional e ativar vendas no digital.',
+    subtitle: 'Sociedades Comerciais, Indústrias, Serviços e Empreendimentos',
+    badge: 'Sector Corporativo & Comercial',
+    focus: 'Atracção de novos clientes, redes activas e benefícios comerciais concretos.',
+    tone: 'Directo, claro, focado em retorno sobre o investimento e dinamismo de mercado.',
+    description: 'As pequenas e médias empresas encontram na Vasrouse Serviços um parceiro ágil para estruturar a sua marca com solidez, competir no mercado com imagem profissional e activar vendas no digital.',
     highlights: [
       'Identidades corporativas completas prontas a aplicar no mesmo mês',
       'Gestão de redes sociais com geração regular de pedidos de cotação',
@@ -151,9 +151,9 @@ export const TARGET_AUDIENCES: TargetAudience[] = [
     ],
     sampleDeliverables: [
       'Cartões de visita especiais, pastas comerciais e fardamentos visuais',
-      'Catálogos de produtos impressos e em formato PDF interativo',
+      'Catálogos de produtos impressos e em formato digital interactivo',
       'Gestão mensal de redes sociais com anúncios patrocinados',
-      'Roll-ups e expositores para pontos de venda e feiras comerciais'
+      'Expositores roll-up e mostruários para pontos de venda e feiras comerciais'
     ]
   },
   {
@@ -161,8 +161,8 @@ export const TARGET_AUDIENCES: TargetAudience[] = [
     title: 'Editoras, Media e Eventos',
     subtitle: 'Casas Editoriais, Produtoras de Eventos, Feiras e Agências Parceiras',
     badge: 'Produção Cultural & Editorial',
-    focus: 'Revistas periódicas, catálogos artísticos e material impresso com acabamento de alta exigência.',
-    tone: 'Técnico, criativo e atento à excelência tipográfica e tátil.',
+    focus: 'Revistas periódicas, catálogos artísticos e material impresso com acabamento de elevada exigência técnica.',
+    tone: 'Técnico, criativo e atento à excelência tipográfica e táctil.',
     description: 'Para quem vive do conteúdo e da cultura visual, oferecemos suporte integral na pré-impressão e finalização gráfica, dominando tipos de papel, gramagens, acabamentos e encadernações nobres.',
     highlights: [
       'Supervisão técnica na escolha de papéis couché, offset e especiais texturados',
@@ -172,7 +172,7 @@ export const TARGET_AUDIENCES: TargetAudience[] = [
     sampleDeliverables: [
       'Revistas trimestrais e mensais diagramadas com grelhas modulares',
       'Livros comemorativos e catálogos de arte com capa dura e verniz UV',
-      'Badges, bilhetes de segurança e programas para fóruns internacionais',
+      'Crachás, bilhetes de segurança e programas para fóruns internacionais',
       'Ecossistemas visuais completos para festivais e exposições'
     ]
   }
@@ -201,40 +201,40 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   {
     id: 'proj-2',
     title: 'Identidade Corporativa & Papelaria Institucional de Prestígio',
-    client: 'Sociedade de Gestão de Ativos & Consultoria',
-    sector: 'Setor Financeiro & Corporativo',
+    client: 'Sociedade de Gestão de Activos & Consultoria',
+    sector: 'Sector Financeiro & Corporativo',
     category: 'impresso',
     categoryLabel: 'Design & Impressão',
     image: '/images/vasrouse_print_branding_1792426606513.jpg',
     summary: 'Conjunto completo de papelaria corporativa com pastas com bolsa, papéis timbrados, envelopes personalizados e cartões com acabamento nobre dourado.',
     specs: [
       { label: 'Materiais', value: 'Pastas 400g, Papel de Carta 100g Fedrigoni' },
-      { label: 'Acabamentos', value: 'Hot Stamping dourado e relevo seco' },
-      { label: 'Cores', value: 'Pantone Dark Violet exclusivo + Verniz Seletivo' },
-      { label: 'Kit Completo', value: 'Cartões VIP, envelopes saco, envelopes ofício e pastas' }
+      { label: 'Acabamentos', value: 'Estampagem a ouro e relevo seco' },
+      { label: 'Cores', value: 'Pantone Dark Violet exclusivo + Verniz Selectivo' },
+      { label: 'Conjunto Completo', value: 'Cartões VIP, envelopes saco, envelopes ofício e pastas' }
     ],
     challenge: 'Transmitir autoridade, solidez financeira e prestígio internacional perante parceiros institucionais angolanos e estrangeiros.',
-    solution: 'Seleção minuciosa de suportes papéis nobres certificados e estampagem a quente de extrema precisão mecânica.',
-    impact: 'Melhoria imediata na perceção de valor da sociedade durante rondas de negócios em Luanda e Lisboa.'
+    solution: 'Selecção minuciosa de suportes de papéis nobres certificados e estampagem a quente de extrema precisão mecânica.',
+    impact: 'Melhoria imediata na percepção de valor da sociedade durante rondas de negócios em Luanda e Lisboa.'
   },
   {
     id: 'proj-3',
     title: 'Campanha Digital 360° & Ecossistema de Redes Sociais',
     client: 'Plataforma Comercial de Inovação & Serviços',
-    sector: 'Tecnologia & Retalho',
+    sector: 'Tecnologia & Comércio',
     category: 'digital',
     categoryLabel: 'Marketing Digital & Social',
     image: '/images/vasrouse_digital_campaign_1792426608027.jpg',
-    summary: 'Desenvolvimento do plano de conteúdo e artes para canais digitais, gerando mais de 4,2 milhões de impressões com engajamento de 18,5%.',
+    summary: 'Desenvolvimento do plano de conteúdo e artes para canais digitais, gerando mais de 4,2 milhões de impressões com envolvimento de 18,5%.',
     specs: [
       { label: 'Canais', value: 'Instagram, LinkedIn e Meta Ads' },
-      { label: 'Formatos', value: 'Carrosséis, Reels dinâmicos, Stories e Anúncios' },
+      { label: 'Formatos', value: 'Carrosséis, Vídeos curtos, Histórias e Anúncios' },
       { label: 'Duração', value: 'Campanha de 90 dias ininterruptos' },
       { label: 'Métricas', value: '+4,2M Impressões / +91K Cliques qualificados' }
     ],
-    challenge: 'Posicionar a nova marca num mercado altamente competitivo e transformar seguidores ocasionais em clientes ativos com cotações abertas.',
-    solution: 'Copywriting focado em benefícios comerciais diretos e identidade visual contrastante com destaques em Dark Violet e Electric Lime.',
-    impact: 'Aumento expressivo nas conversões diretas via WhatsApp institucional e consolidação como referência no segmento.'
+    challenge: 'Posicionar a nova marca num mercado altamente competitivo e transformar seguidores ocasionais em clientes activos com cotações abertas.',
+    solution: 'Redacção focada em benefícios comerciais directos e identidade visual contrastante com destaques em Dark Violet e Electric Lime.',
+    impact: 'Aumento expressivo nas conversões directas via WhatsApp institucional e consolidação como referência no segmento.'
   },
   {
     id: 'proj-4',
@@ -246,14 +246,14 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     image: '/images/vasrouse_hero_studio_1792426605504.jpg',
     summary: 'Acompanhamento do ciclo integral de comunicação: desde o briefing criativo nos nossos ecrãs até à prova física de máquina e entrega final.',
     specs: [
-      { label: 'Equipa', value: 'Direção de Arte, Paginação e Produção' },
+      { label: 'Equipa', value: 'Direcção de Arte, Paginação e Produção' },
       { label: 'Localização', value: 'Av. Deolinda Rodrigues, Luanda' },
       { label: 'Garantia', value: '100% rigor cromático e prova de cor prévia' },
       { label: 'Capacidade', value: 'Tiragens curtas de urgência a grandes volumes' }
     ],
     challenge: 'Eliminar o hiato tradicional entre o designer que cria no computador e a gráfica que imprime fisicamente.',
     solution: 'Integração de todo o fluxo num único interlocutor responsável: Vasrouse Serviços.',
-    impact: 'Eliminação de atrasos, erros de corte e discrepâncias de cor nos projetos dos nossos clientes.'
+    impact: 'Eliminação de atrasos, erros de corte e discrepâncias de cor nos projectos dos nossos clientes.'
   }
 ];
 
@@ -266,7 +266,7 @@ export const INSTITUTIONAL_PILLARS = [
   {
     number: '02',
     title: 'Cumprimento Estrito de Prazos',
-    description: 'Tratamos cada data de entrega como um compromisso inegociável. Eventos de Estado, lançamentos e reuniões de acionistas têm garantia de pontualidade absoluta.'
+    description: 'Tratamos cada data de entrega como um compromisso inegociável. Eventos de Estado, lançamentos e reuniões de accionistas têm garantia de pontualidade absoluta.'
   },
   {
     number: '03',
@@ -279,27 +279,27 @@ export const WORKFLOW_STEPS = [
   {
     step: '01',
     name: 'Diagnóstico & Alinhamento',
-    desc: 'Compreensão aprofundada dos objetivos, normas institucionais, público e especificações técnicas.'
+    desc: 'Compreensão aprofundada dos objectivos, normas institucionais, público e especificações técnicas.'
   },
   {
     step: '02',
-    name: 'Conceção & Design Gráfico',
-    desc: 'Desenvolvimento das grelhas, identidade visual, diagramação e redação estratégica institucional.'
+    name: 'Concepção & Design Gráfico',
+    desc: 'Desenvolvimento das grelhas, identidade visual, diagramação e redacção estratégica institucional.'
   },
   {
     step: '03',
     name: 'Provas & Validação Rígida',
-    desc: 'Emissão de bonecos editoriais e provas cromáticas para conferência de conteúdo e aprovação formal.'
+    desc: 'Emissão de maquetas editoriais e provas cromáticas para conferência de conteúdo e aprovação formal.'
   },
   {
     step: '04',
     name: 'Produção & Alta Fidelidade',
-    desc: 'Impressão em suportes selecionados, acabamentos especiais (UV, relevo, costura) e controlo de qualidade.'
+    desc: 'Impressão em suportes seleccionados, acabamentos especiais (UV, relevo, costura) e controlo de qualidade.'
   },
   {
     step: '05',
-    name: 'Entrega & Ativação de Sucesso',
-    desc: 'Embalamento protegido e entrega em mãos em Luanda ou despacho seguro para outras províncias de Angola.'
+    name: 'Entrega & Activação de Sucesso',
+    desc: 'Acondicionamento protegido e entrega em mãos em Luanda ou expedição segura para outras províncias de Angola.'
   }
 ];
 
@@ -310,34 +310,33 @@ export const TRUST_SECTORS = [
   'Editoras & Veículos de Comunicação',
   'Grandes Conferências & Cimeiras em Luanda',
   'PMEs Comerciais & Industriais de Angola',
-  'Missões Diplomáticas & Cooperação'
+  'Missões Diplomáticas & Cooperação Internacional'
 ];
 
 export const FAQ_LIST = [
   {
     question: 'Como funciona o processo de prova de cor e validação antes da impressão final?',
-    answer: 'Antes de rodar qualquer tiragem gráfica ou editorial, produzimos uma prova de cor calibrada ou boneco físico (mockup real). A produção final só avança após validação formal e assinatura da prova pelo cliente, garantindo zero desvios cromáticos.',
+    answer: 'Antes de rodar qualquer tiragem gráfica ou editorial, produzimos uma prova de cor calibrada ou maqueta física (amostra real). A produção final só avança após validação formal e assinatura da prova pelo cliente, garantindo zero desvios cromáticos.',
     category: 'producao' as const
   },
   {
-    question: 'Qual é a garantia de sigilo para relatórios e contas ou documentos de Estado?',
-    answer: 'Tratamos projetos institucionais sob estrito acordo de confidencialidade (NDA). Toda a equipa envolvida na paginação e impressão segue protocolos de segurança da informação, com ficheiros encriptados e destruição controlada de aparas de teste.',
+    question: 'Qual é a garantia de sigilo para relatórios de contas ou documentos de Estado?',
+    answer: 'Tratamos projectos institucionais sob estrito acordo de confidencialidade (NDA). Toda a equipa envolvida na paginação e impressão segue protocolos de segurança da informação, com ficheiros encriptados e destruição controlada de provas de ensaio.',
     category: 'institucional' as const
   },
   {
-    question: 'A Vasrouse Serviços efetua entregas em províncias fora de Luanda?',
+    question: 'A Vasrouse Serviços efectua entregas em províncias fora de Luanda?',
     answer: 'Sim. A nossa sede e estúdio de produção situam-se na Av. Deolinda Rodrigues em Luanda, mas dispomos de logística de expedição rápida e segura para todas as 18 províncias de Angola (Benguela, Huíla, Cabinda, Huambo, etc.).',
     category: 'comercial' as const
   },
   {
     question: 'É possível contratar pacotes contínuos de Redes Sociais combinados com Impressão regular?',
-    answer: 'Sim, é o nosso modelo 360° mais procurado por PMEs e corporações. Criamos a estratégia mensal digital e fornecemos uma quota periódica de materiais impressos (flyers de campanha, cartazes ou revistas periódicas) com fatura única e gestão centralizada.',
+    answer: 'Sim, é o nosso modelo 360° mais procurado por PMEs e corporações. Criamos a estratégia mensal digital e fornecemos uma quota periódica de materiais impressos (folhetos de campanha, cartazes ou revistas periódicas) com facturação centralizada.',
     category: 'comercial' as const
   },
   {
     question: 'Quais são os prazos médios para produção de revistas e livros corporativos?',
-    answer: 'Para projetos padrão, o ciclo editorial completo (diagramação de 80 a 160 páginas, aprovação e impressão) varia habitualmente entre 10 a 20 dias úteis. Para cimeiras, congressos e eventos urgentes, dispomos de modalidade acelerada com cronograma dedicado.',
+    answer: 'Para projectos padrão, o ciclo editorial completo (diagramação de 80 a 160 páginas, aprovação e impressão) varia habitualmente entre 10 a 20 dias úteis. Para cimeiras, congressos e eventos urgentes, dispomos de modalidade acelerada com cronograma dedicado.',
     category: 'producao' as const
   }
 ];
-

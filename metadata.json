@@ -1,0 +1,6 @@
+{
+  "name": "Vasrouse Serviços",
+  "description": "Website Oficial e Montra Digital da Vasrouse Serviços - Agência de Comunicação Visual de Ponta a Ponta em Angola.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

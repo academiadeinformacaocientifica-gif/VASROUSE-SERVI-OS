@@ -5,19 +5,19 @@ export const TeamSection: React.FC = () => {
     {
       role: 'DIREÇÃO EDITORIAL',
       name: 'Mário dos Santos',
-      image: '/src/assets/images/vasrouse_team_editorial_1792428882170.jpg',
+      image: '/images/vasrouse_team_editorial_1792428882170.jpg',
       bio: 'Especialista em paginação editorial de alta complexidade, diagramação de revistas ministeriais, livros comemorativos e relatórios anuais com padrões de excelência internacional.'
     },
     {
       role: 'ESTRATÉGIA DIGITAL',
       name: 'Edgar Kiala',
-      image: '/src/assets/images/vasrouse_team_digital_1792428882625.jpg',
+      image: '/images/vasrouse_team_digital_1792428882625.jpg',
       bio: 'Responsável pelo planeamento de comunicação digital, criação de calendários de conteúdo e campanhas de tráfego que transformam presença em autoridade e novos clientes.'
     },
     {
       role: 'PRODUÇÃO GRÁFICA',
       name: 'António Mateus',
-      image: '/src/assets/images/vasrouse_team_production_1792428881624.jpg',
+      image: '/images/vasrouse_team_production_1792428881624.jpg',
       bio: 'Supervisão técnica de pré-impressão, calibração CMYK e controlo de qualidade em máquina, garantindo fidelidade de cor e acabamentos nobres sem falhas de corte.'
     }
   ];

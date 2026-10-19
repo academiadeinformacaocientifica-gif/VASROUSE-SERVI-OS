@@ -177,7 +177,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-4 text-xs font-mono">
             <span>Luanda · Angola</span>
             <span>·</span>
-            <span className="text-[#c3f500] font-semibold">{COMPANY_INFO.domain}</span>
+            <span className="text-[#c3f500] font-semibold">Comunicação Visual 360°</span>
           </div>
         </div>
       </div>

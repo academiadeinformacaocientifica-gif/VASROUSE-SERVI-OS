@@ -18,7 +18,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
       {/* Full Background Photographic Scene (matching reference image) */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/vasrouse_hero_studio_1792426605504.jpg"
+          src="/images/vasrouse_hero_studio_1792426605504.jpg"
           alt="Estúdio criativo e equipa da Vasrouse Serviços em Luanda"
           className="w-full h-full object-cover object-center brightness-60"
           referrerPolicy="no-referrer"

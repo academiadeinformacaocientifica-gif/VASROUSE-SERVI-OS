@@ -5,7 +5,6 @@ export const COMPANY_INFO = {
   legalName: 'Vasrouse Serviços, Lda.',
   symbol: 'V7',
   tagline: 'Comunicação Visual de Ponta a Ponta',
-  domain: 'vasrouse.co.ao',
   address: 'Av. Deolinda Rodrigues, Luanda, Angola',
   addressDetail: 'Frente ao Catetão do Petro',
   phones: [
@@ -187,7 +186,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     sector: 'Institucional & Energia',
     category: 'editorial',
     categoryLabel: 'Produção Editorial',
-    image: '/src/assets/images/vasrouse_editorial_mag_1792426607243.jpg',
+    image: '/images/vasrouse_editorial_mag_1792426607243.jpg',
     summary: 'Diagramação e impressão de 148 páginas com grelha editorial suíça, papel couché mate 150g e acabamento com lombada cosida a linha.',
     specs: [
       { label: 'Formato', value: 'A4 Fechado (210 x 297 mm)' },
@@ -206,7 +205,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     sector: 'Setor Financeiro & Corporativo',
     category: 'impresso',
     categoryLabel: 'Design & Impressão',
-    image: '/src/assets/images/vasrouse_print_branding_1792426606513.jpg',
+    image: '/images/vasrouse_print_branding_1792426606513.jpg',
     summary: 'Conjunto completo de papelaria corporativa com pastas com bolsa, papéis timbrados, envelopes personalizados e cartões com acabamento nobre dourado.',
     specs: [
       { label: 'Materiais', value: 'Pastas 400g, Papel de Carta 100g Fedrigoni' },
@@ -225,7 +224,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     sector: 'Tecnologia & Retalho',
     category: 'digital',
     categoryLabel: 'Marketing Digital & Social',
-    image: '/src/assets/images/vasrouse_digital_campaign_1792426608027.jpg',
+    image: '/images/vasrouse_digital_campaign_1792426608027.jpg',
     summary: 'Desenvolvimento do plano de conteúdo e artes para canais digitais, gerando mais de 4,2 milhões de impressões com engajamento de 18,5%.',
     specs: [
       { label: 'Canais', value: 'Instagram, LinkedIn e Meta Ads' },
@@ -244,7 +243,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     sector: 'Comunicação Visual de Ponta a Ponta',
     category: 'impresso',
     categoryLabel: 'Produção e Impressão',
-    image: '/src/assets/images/vasrouse_hero_studio_1792426605504.jpg',
+    image: '/images/vasrouse_hero_studio_1792426605504.jpg',
     summary: 'Acompanhamento do ciclo integral de comunicação: desde o briefing criativo nos nossos ecrãs até à prova física de máquina e entrega final.',
     specs: [
       { label: 'Equipa', value: 'Direção de Arte, Paginação e Produção' },
